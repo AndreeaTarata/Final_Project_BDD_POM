@@ -12,3 +12,6 @@ class HomePage(BasePage):
 
     def click_form(self):
         self.driver.find_element(*HomePageLocators.FORM).click()
+
+    def open_checkbox(self):
+        self.driver.find_element(*HomePageLocators.CHECKBOX).click()
