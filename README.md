@@ -1,2 +1,9 @@
-# Final_Project_BDD_POM
-Project is BDD with POM on Formy Project
+# To run the test in BDD
+```
+behave 
+```
+Cum vedem toate packetele?
+```commandline
+pip freeze > requirments.txt
+behave --tags=smoke -f html -o raport.html
+```
